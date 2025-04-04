@@ -1,0 +1,113 @@
+/* .parent{
+display: flex;
+text-align: center;
+font-size: 22px;
+font-weight: bold;
+text-decoration: none;
+padding: 10px;
+justify-content: space-evenly;
+background-color: darkgrey;
+} */
+/* .uncommon{
+    background-color: darkgrey;
+    height: 45px;
+    list-style: none;
+    width: 90%;
+} */
+.userinterface{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 10px;
+    /* background: url(./logo.png); */
+    /* padding: 50px; */
+    /* background-repeat: no-repeat */
+}
+.general{
+background: url(./slide.jpg);
+border: 2px solid red;
+height: 35vw;
+width: 100%;
+
+background-size: 100% 100%;
+/* aspect-ratio: 1/1; */
+background-repeat: no-repeat;
+background-size: contain;
+object-fit: cover;
+}
+
+
+.general1{
+
+}
+.lastimage{
+ 
+    display: flex;
+    
+    /* border: 2px solid red; */
+   
+    width: 90%;
+
+    /* padding: 5px; */
+   
+}
+
+            /* .child5:hover{ */
+                /* background-color: yellow; */
+                /* border-bottom: 1px solid blue; */
+                /* padding: 15px; */
+
+
+
+
+                .parent{
+                    display: flex;
+                    justify-content: space-evenly;
+                    background-color: darkgrey;
+                    height: 40px;
+                }
+                .child,.child2,.child3,.child4,.child5{
+                  list-style: none; 
+                  font-size: 20px;
+                  /* text-align: center; */
+                  margin-top: 5px;
+                }
+
+                .child:hover,.child2:hover,.child3:hover,.child4:hover,.child5:hover{
+                    background-color: yellow; 
+                 border-bottom: 1px solid blue;
+                     padding-right: 13px;
+                     padding-left: 12px;
+                     /* padding: 15px; */
+                }
+                .general0{
+display: flex;
+justify-content: space-evenly;
+                }
+                .item1,.item2,.item3{
+                    background-color: darkgray;
+                    /* height: 50px; */
+                    width: 30%;
+                    padding: min(8px,12%);
+                }
+            .sub_parent{
+                display: flex;
+                font-size: 13px;
+                /* border: 2px solid blue; */
+                width: 80%;
+                margin: auto;
+                justify-content: space-evenly;
+            }
+            .text{
+                width: 80%;
+                margin: auto;
+            }
+            .safe{
+            color: yellow;
+            }
+            .prices{
+                color: yellow;
+            }
+            .delivery{
+                color: yellow;
+            }

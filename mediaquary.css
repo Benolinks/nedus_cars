@@ -1,54 +1,65 @@
+@media (max-width: 768px) {
+  .all {
+    background: linear-gradient(
+      to bottom,
+      rgba(128, 128, 128, 0.2),
+      rgba(169, 169, 169, 0.9)
+    );
+  }
 
-    
+  .parent {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+    height: fit-content;
+    width: fit-content;
+    /* padding-right: 60px; */
+    padding-left: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+  }
 
-@media (max-width:768px) {
-    
-.parent{
-   display: flex; 
-   flex-direction: column;
-   background-color: darkgray;
-   height: fit-content;
-   width: fit-content;
-   /* padding-right: 60px; */
-   padding-left: 20px;
-   border: 2px solid gray;
-   border-radius: 10px;
-
-}
-
-.child,.child2,.child3,.child4,.child5{
+  .child,
+  .child2,
+  .child3,
+  .child4,
+  .child5 {
     font-size: 15px;
     border-bottom: 2px solid black;
-    width:9rem;
-   
+    width: 9rem;
+  }
+
+  .child:hover,
+  .child2:hover,
+  .child3:hover,
+  .child4:hover,
+  .child5:hover {
+    transition: transform 0.4s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+    padding-right: auto;
+    border-radius: 10px;
+  }
+
+  .userinterface {
+    height: 30px;
+    margin-top: 50px;
+  }
+  .general0 {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    border: 12px solid rgba(169, 169, 169, 0.9);
+    /* height: 50%; */
+    /* background-color: darkgrey; */
+    margin-bottom: 25px;
+    margin: auto;
+  }
+  .item1,
+  .item2,
+  .item3 {
+    margin: 10px auto;
+    /* border: 2px solid red; */
+    width: 95%;
+  }
 }
-
-.child:hover,.child2:hover,.child3:hover,.child4:hover,.child5:hover{
-transition: transform 0.4s ease-in-out;
-transform: scale(1.1);
-cursor: pointer;
-padding-right: auto;
-border-radius: 10px;
-}
-
-
-       .userinterface{
-        height: 30px;
-        margin-top: 50px;
-       }
-       .general0{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        /* border: 2px solid blue; */
-        /* height: 50%; */
-        /* background-color: darkgrey; */
-        margin: auto; 
-       }
-       .item1,.item2,.item3{
-        margin: 10px auto;
-        /* border: 2px solid red; */
-        width: 100%;
-       }
-    }
-      
